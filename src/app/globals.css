@@ -25,3 +25,35 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+nav li {
+	color:white
+}
+
+
+/* Sidebar.css */
+
+/* Add your styles here */
+.sidebar {
+  /* Example styles for the sidebar container */
+  background-color: #000;
+  color: #fff;
+   width: 13rem; /* Adjust this value according to your design */
+}
+
+.sidebarHeader {
+  /* Example styles for the sidebar header */
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.menuItem {
+  /* Example styles for menu items */
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menuItem:hover {
+  background-color: #555;
+}
