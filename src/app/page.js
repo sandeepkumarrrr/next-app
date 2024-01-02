@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -11,9 +12,9 @@ export default function Home() {
       {/* ===== Page Wrapper Start ===== */}
       <div className="flex h-screen overflow-hidden">
         {/* ===== Sidebar Start ===== */}
-        {/* Include your sidebar component here */}
+		  <Navbar />
         {/* ===== Sidebar End ===== */}
-			<Navbar />
+			
         {/* ===== Content Area Start ===== */}
         <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
           {/* ===== Header Start ===== */}
@@ -35,6 +36,9 @@ export default function Home() {
             </div>
           </main>
           {/* ===== Main Content End ===== */}
+		   <div className="mt-auto">
+		     <Footer />
+		   </div>
         </div>
         {/* ===== Content Area End ===== */}
       </div>
